@@ -16,7 +16,7 @@ class Service {
         return {
             name: result.name,
             surfaceWater: result.surface_water,
-            apperedIn: result.films
+            appearedIn: result.films.length
         }
     }
 }
