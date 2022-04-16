@@ -1,5 +1,5 @@
 {
-  "devDependencies": {
+  "dependencies": {
     "sinon": "^13.0.2"
   }
 }
