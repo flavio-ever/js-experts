@@ -1,9 +1,11 @@
 {
   "devDependencies": {
     "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
     "supertest": "^6.2.2"
   },
   "scripts": {
-    "test": "npx mocha -w *.test.js"
+    "test": "npx mocha -w --parallel *.test.js",
+    "test:cov": "npx nyc npx mocha --parallel *.test.js"
   }
 }

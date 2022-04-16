@@ -11,9 +11,6 @@ describe('API Suite test', () => {
             .get('/contact')
             .expect(200)
 
-            // Todo
-            // console.log('response', response)
-
             assert.deepStrictEqual(response.text, 'contact us page')
         })
     })
