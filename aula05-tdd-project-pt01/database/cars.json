@@ -1,0 +1,23 @@
+[
+  {
+    "id": "c799712b-29fe-4259-8bab-d855f353831b",
+    "name": "Fiesta",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "eca5857f-ad7a-458e-af0a-fb6e5a683bcb",
+    "name": "F-150",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "979358de-0aaa-4921-bc2a-acf5633feb66",
+    "name": "Ranchero",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]
