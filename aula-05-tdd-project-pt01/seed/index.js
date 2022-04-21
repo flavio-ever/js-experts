@@ -1,8 +1,8 @@
 const faker = require("faker")
 
-const Car = require("./../src/entities/car")
-const CarCategory = require("./../src/entities/carCategory")
-const Customer = require("./../src/entities/customer")
+const Car = require("../src/entities/car")
+const CarCategory = require("../src/entities/carCategory")
+const Customer = require("../src/entities/customer")
 
 const { join } = require("path")
 const { writeFile } = require("fs/promises")
@@ -10,7 +10,6 @@ const { writeFile } = require("fs/promises")
 const seederBaseFolder = join(__dirname, "../", "database")
 const ITEMS_AMOUNT = 2
 
-// TODO xxx
 const carCategory = new CarCategory({
   id: faker.random.uuid(),
   name: faker.vehicle.type(),
